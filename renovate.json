@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":disableMajorUpdates"],
+  "ignoreDeps": ["@the-platform-group/formatters", "@platform-group/prettier-config"],
+  "baseBranches": ["main"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "enabled": false
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "devDependencies"
+    }
+  ],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "prBodyTemplate": "{{{header}}}{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{footer}}}",
+  "prFooter": "Changelog: improvement",
+  "transitiveRemediation": true
+}
