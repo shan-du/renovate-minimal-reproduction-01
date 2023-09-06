@@ -43,7 +43,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "history": "^4.9.0",
+    "history": "^4.10.1",
     "husky": "^2.5.0",
     "jest": "^27.5.0",
     "jest-fail-on-console": "^3.0.2",
