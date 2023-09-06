@@ -11,11 +11,11 @@
     },
     {
       "matchDepTypes": ["dependencies"],
-      "groupName": "dependencies"
+      "groupName": null
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "groupName": "devDependencies"
+      "groupName": null
     }
   ],
   "prConcurrentLimit": 0,
