@@ -23,7 +23,7 @@
     "@emotion/react": "^11.9.0",
     "@platform-group/prettier-config": "^0.1.0",
     "@storybook/addon-a11y": "^6.4.22",
-    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-actions": "^5.3.21",
     "@storybook/addon-docs": "^6.4.22",
     "@storybook/addon-jest": "^6.4.22",
     "@storybook/addon-knobs": "6.4.0",
