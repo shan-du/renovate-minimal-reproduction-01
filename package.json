@@ -15,7 +15,7 @@
     "chromatic": "npx chromatic --project-token 3540c21f0534"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.25.9",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.4.2",
